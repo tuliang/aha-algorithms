@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
-{
+{ 
     int book[1001], i, j, t, n;
     for(i = 0; i <= 1000; i++)
         book[i] = 0; // 初始化为 0
@@ -16,7 +16,7 @@ int main()
     for(i = 1000; i >= 0; i--) // 依次判断
         for(j = 0; j < book[i]; j++) // 计数大于 0 就打印出来
             printf("%d ", i);
-    
+
     getchar();
 
     return 0;
